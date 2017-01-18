@@ -1,0 +1,25 @@
+{
+  "name": "web_scraper_102",
+  "version": "0.0.1",
+  "description": "Web scraping tool ",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "express": "4.14.0",
+    "request": "2.79.0",
+    "cheerio": "0.22.0",
+    "pug": "2.0.0-beta6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primeXXIX/Web_Scraper_102.git"
+  },
+  "author": "Lizz & Aaron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/primeXXIX/Web_Scraper_102/issues"
+  },
+  "homepage": "https://github.com/primeXXIX/Web_Scraper_102#readme"
+}
