@@ -2,8 +2,12 @@ const express = require( 'express' )
 const fs = require( 'fs' )
 const request = require( 'request' )
 const cheerio = require( 'cheerio' )
+const path = require( 'path' )
 const app = express()
 
+app.get('/', function(req, res){
+  app.use('/public', express.static(path.join(__dirname + '/public')));
+})
 
 app.get( '/scrape', function( req, res ) {
   url = 'http://www.imdb.com/title/tt1229340/'
