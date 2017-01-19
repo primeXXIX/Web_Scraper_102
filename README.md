@@ -3,6 +3,11 @@ Practice project to build web scraper
 ## Description
 "Web scraping is a technique in data extraction where you pull information from websites."
 
+Goals:
+
+- User can paste a link and select images or links. If the user selects robots, it redirects to shitty robots reddit page
+- Functionally: The scraper currently returns JSON, and we want to take that data and format it into a webpage 
+
 ## Specifications
 
 Using https://scotch.io/tutorials/scraping-the-web-with-node-js as a resource, optionally with the same libraries, preferably explore alternative libraries that will still allow you to accomplish the same end result.

@@ -4,7 +4,8 @@
   "description": "Web scraping tool ",
   "main": "server.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "nodemon server.js"
   },
   "dependencies": {
     "express": "4.14.0",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/primeXXIX/Web_Scraper_102/issues"
   },
-  "homepage": "https://github.com/primeXXIX/Web_Scraper_102#readme"
+  "homepage": "https://github.com/primeXXIX/Web_Scraper_102#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
